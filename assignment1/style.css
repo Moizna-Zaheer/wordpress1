@@ -1,0 +1,159 @@
+.first-div{
+    padding: 30px;
+    margin : 50px;
+    height: 200px;
+    /* background-color:yellow; */
+    /* border: 5px solid rgb(255, 253, 253); */
+    display: flex;
+    justify-content: space-around;
+}
+.second-div{
+    padding: 30px;
+    margin: 50px;
+    height: 200px;
+    background-color:yellow;
+    border: 5px solid rgb(250, 245, 245);
+}
+.third-div{
+    padding: 30px;
+    margin: 50px;
+    height: 200px;
+    background-color:yellow;
+    border: 5px solid rgb(251, 250, 250);
+    display: flex;
+    justify-content: space-around;
+} 
+.main-div{
+    background-color: black;
+    border: 5px solid rgb(227, 9, 9);
+    /* display: flex; */
+    height: auto;
+}
+.c1{
+    padding: 30px;
+    /* margin: 30px; */
+    /* margin-right: 464px; */
+    background-color:yellow ;
+    width: 313px;
+    /* justify-content: left; */
+    border: 5px solid rgb(248, 247, 247);
+}
+.c2{
+    padding: 30px;
+    /* margin: 50px; */
+    background-color:yellow ;
+    width: 313px;
+    /* justify-content: right; */
+    border: 5px solid rgb(247, 247, 247);
+}
+.b1{
+    width: 313px;
+    background-color: black;
+    border: 5px solid rgb(247, 247, 247);
+}
+.b2{
+    width: 313px;
+    background-color: black;
+    border: 5px solid rgb(247, 247, 247);
+}
+.b3{
+    width: 313px;
+    background-color: black;
+    border: 5px solid rgb(247, 247, 247);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navigation */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+/* Home section */
+#home{
+    height: 370px; 
+    padding: 3px 28px;
+}
+
+#home::before{
+    height: 480px; 
+}
+
+#home p{
+    font-size: 13px;
+}
+
+/* Services section  */
+#services{
+    flex-direction: column;
+}
+
+#services .box { 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+
+/* Clients section */
+#clients{
+    flex-wrap: wrap;
+}
+
+#clients img{
+    width: 66px;
+    padding: 6px;
+    height: auto;
+}
+
+/* Contact us section */
+#contact-box form{
+    width:80%;
+}
+/* Footer */
+
+/* Utility classes */
+.h-primary{
+    font-size:26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
